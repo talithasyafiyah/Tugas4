@@ -1,0 +1,181 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+@media only screen and (max-width: 758px) {
+  .btn-info-login,
+  .btn-info {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}
+
+/* Untuk Gambar */
+
+.slides {
+  padding: 0;
+  width: 508px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide-container {
+  display: block;
+}
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 508px;
+  height: 350px;
+  display: block;
+  position: absolute;
+
+  transform: scale(0);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav label {
+  width: 80px;
+  height: 100%;
+  display: none;
+  position: absolute;
+
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+
+  transition: opacity 0.3s;
+
+  color: rgb(255, 255, 255);
+  font-size: 25pt;
+  text-align: center;
+  line-height: 380px;
+  background: none;
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label {
+  opacity: 0.5;
+}
+
+.nav label:hover {
+  opacity: 1;
+}
+
+.nav .next {
+  right: 0;
+}
+
+input:checked + .slide-container .slide {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label {
+  display: block;
+}
+
+.container-xl {
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  margin-right: 100px;
+  margin-top: 50px;
+  width: 1300px;
+  background-color: #87af9abb;
+}
+
+.card-text {
+  font-family: Montserrat, sans serif;
+}
+
+p {
+  font-family: Montserrat, sans serif;
+}
+
+.container-fluid {
+  background-color: rgb(255, 255, 255);
+  font-family: Montserrat, sans serif;
+}
+
+h2 {
+  color: #ffff;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: 1px solid #87af9a;
+  color: #5c7e6c;
+}
+
+.btn:hover {
+  background-color: #87af9a;
+  color: #ffff;
+  border: 1px solid #87af9a;
+}
+
+.footer {
+  color: #ffff;
+  padding-left: 300px;
+}
+
+.footerr {
+  color: #ffff;
+  padding-left: 250px;
+}
+
+.btn-info-login {
+  color: #ffffff;
+  background-color: #87af9a;
+  border: 1px solid #87af9a;
+}
+
+.btn-info-login:hover {
+  color: #5c7e6c;
+  background-color: #ffff;
+  border: 1px solid #87af9a;
+}
+
+.c-button {
+  background: none;
+  border: none;
+  color: #ffff;
+}
+
+.c-button:hover {
+  border-bottom: 1px solid rgb(255, 195, 82);
+  color: rgb(255, 195, 82);
+}
+
+.label-icon {
+  color: #87af9a;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  </head>
+  <style>
+    * {
+      font-family: Playfair, sans serif;
+    }
+
+    h1 {
+      letter-spacing: 4px;
+    }
+
+    li {
+      font-family: Montserrat, sans serif;
+    }
+
+    ul {
+      padding-left: 17px;
+    }
+
+    .image {
+      display: flex;
+      padding-left: 5px;
+      -webkit-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .image:hover {
+      -webkit-transform: scale(1.2, 1.2);
+      -o-transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1.2);
+    }
+
+    .btn {
+      background-color: #ffffff;
+      border: 1px solid #87af9a;
+      color: #5c7e6c;
+    }
+
+    .btn:hover {
+    background-color: #87af9a;
+    color: #ffff;
+    border: 1px solid #87af9a;
+    }
+
+    .btn-info-login {
+      color: #ffffff;
+      background-color: #87af9a;
+      border: 1px solid #87af9a;
+    }
+
+    .btn-info-login:hover {
+      color: #5c7e6c;
+      background-color: #ffff;
+      border: 1px solid #87af9a;
+    }
+
+    .footer {
+    color: #ffff;
+    padding-left: 300px;
+    font-family: Montserrat, sans serif;
+    }
+
+    .footerr {
+    color: #ffff;
+    padding-left: 250px;
+    font-family: Montserrat, sans serif;
+    }
+
+    .c-button {
+    background: none;
+    border: none;
+    color: #ffff;
+    font-family: Montserrat, sans serif;
+    }
+
+    .c-button:hover {
+    border-bottom: 1px solid rgb(255, 195, 82);
+    color: rgb(255, 195, 82);
+    font-family: Montserrat, sans serif;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-light
+          shadow-sm
+          p-2
+          mb-5
+          bg-white
+          rounded
+        "
+        style="top: 0; position: fixed; width: 100%; z-index: 1;"
+      >
+        <a class="navbar-brand" href="#"
+          ><strong
+            ><img
+              src="image/logo talitha's site.png"
+              width="171"
+              height="69" /></strong
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="index.html"
+                style="font-family: Montserrat, sans serif"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="profile.html"
+                style="font-family: Montserrat, sans serif"
+                >Profil</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style="font-family: Montserrat, sans serif"
+              >
+                Tugas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  style="font-family: Montserrat, sans serif"
+                  >Tugas 1</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://talithasyafiyah.github.io/Tugas2/"
+                  target="_blank"
+                  style="font-family: Montserrat, sans serif"
+                  >Tugas 2</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://talithasyafiyah.github.io/Tugas3/"
+                  target="_blank"
+                  style="font-family: Montserrat, sans serif"
+                  >Tugas 3</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="index.html"
+                  target="_blank"
+                  style="font-family: Montserrat, sans serif;"
+                  >Tugas 4</a
+                >
+              </div>
+            </li>
+          </ul>
+          <button
+            class="btn btn-info-login px-4 ml-2"
+            type="submit"
+            style="font-family: Montserrat, sans serif"
+          >
+            Login
+          </button>
+          <a href="https://talithasyafiyah.github.io/Tugas2/" target="_blank"
+            ><button
+              class="btn btn-info px-4 ml-3 mr-4"
+              type="submit"
+              style="font-family: Montserrat, sans serif"
+            >
+              Sign Up
+            </button></a
+          >
+        </div>
+      </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-xl">
+      <div class="row mt-5">
+        <div class="col-6">
+          <h1><strong>Talitha Syafiyah</strong></h1>
+          <p style="letter-spacing: 3px">
+            <i
+              >CEO and Founder of Talitha Inc.</i
+            >
+            <br />
+          </p>
+          <p style="font-family: Montserrat, sans serif">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit doloremque consectetur quos facere, aliquid architecto. Dolores autem illum maxime ipsam molestiae cum id totam. Rerum qui vitae sapiente quod!
+          </p>
+
+          <p style="font-family: Montserrat, sans serif">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit doloremque consectetur quos facere, aliquid architecto. Dolores autem illum maxime ipsam molestiae cum id totam. Rerum qui vitae sapiente quod!
+          </p>
+
+          <p style="font-family: Montserrat, sans serif">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit doloremque consectetur quos facere, aliquid architecto. Dolores autem illum maxime ipsam molestiae cum id totam. Rerum qui vitae sapiente quod!
+          </p>
+         
+        </div>
+
+        <div class="col-6 align-self-center text-center">
+          <img
+            src="image/foto saya.jpeg"
+            width="318.3"
+            height="426.6"
+            class="image ml-5"
+          />
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container-fluid" style="background: rgb(46, 46, 46);">
+          <div class="row">
+            <div class="col-6 align-self-center mt-3">
+              <p><h2 style="padding-left: 300px; font-family: Montserrat, sans serif; color: #ffff;">Our Product</h2></p>
+              <div class="footer">
+              <p style="font-family: Montserrat, sans serif;">Skincare</p>
+              <p style="font-family: Montserrat, sans serif;">Bodycare</p>
+              <p style="font-family: Montserrat, sans serif;">Haircare</p>
+              <p style="font-family: Montserrat, sans serif;">Nailcare</p>
+              </div>
+            </div>
+
+            <div class="col-6 align-self-center mt-3">
+              <p><h2 style="padding-left: 250px; font-family: Montserrat, sans serif; color: #ffff;">Reach Us</h2></p>
+              <div class="footerr"> 
+              <a href="https://wa.link/dkr35l" target="_blank"></i><button class="c-button"><i class="fab fa-whatsapp"></i>&nbsp WhatsApp</button></a><br><br>
+              <a href="https://instagram.com/talithasfyh/" target="_blank"><button class="c-button"><i class="fab fa-instagram"></i>&nbsp Instagram</button></a><br><br>
+              <a href="mailto:talithasyafiyah1112@gmail.com" target="_blank"><button class="c-button"><i class="far fa-envelope"></i>&nbsp E-mail</button></a><br><br>
+              <a href="https://www.deviantart.com/yorilyx" target="_blank"><button class="c-button"><i class="fab fa-deviantart"></i>&nbsp Deviantart</button></a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+            <p style="text-align: center; color: #ffff; font-family: Montserrat, sans serif;">Copyright &copy; 2021 Talitha Syafiyah</p>
+            </div>
+          </div>
+        </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
