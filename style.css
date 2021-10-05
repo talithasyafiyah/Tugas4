@@ -93,9 +93,6 @@ input:checked + .slide-container .nav label {
   background-color: rgb(255, 255, 255);
 }
 .container {
-  margin-right: 100px;
-  margin-top: 50px;
-  width: 1300px;
   background-color: #87af9abb;
 }
 
@@ -130,12 +127,12 @@ h2 {
 
 .footer {
   color: #ffff;
-  padding-left: 300px;
+  /*   padding-left: 250px; */
 }
 
 .footerr {
   color: #ffff;
-  padding-left: 250px;
+  /*   padding-left: 250px; */
 }
 
 .btn-info-login {
