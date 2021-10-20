@@ -25,6 +25,15 @@
       font-family: Playfair, sans serif;
     }
 
+  @media only screen and (max-width: 758px) {
+    .btn-info-login,
+    .btn-info {
+      width: 100%;
+      margin-top: 10px;
+      margin-left: 0 !important;
+    }
+  }    
+
     h1 {
       letter-spacing: 4px;
     }
@@ -102,31 +111,33 @@
   <body>
     <div class="container-fluid" style="padding-left: 0;">
       <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-2 mb-5 bg-white rounded" style="top: 0; position: fixed; width: 100%; z-index: 1;">
-        <a class="navbar-brand ml-2" href="#"><img src="image/logo talitha's site.png" width="171" height="69" /></a>
+        <a class="navbar-brand ml-2" href="#"><img src="image/logo talitha's site.png" width="171" height="69"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html" style="font-family: Montserrat, sans serif">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html" style="font-family: Montserrat, sans serif;">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="profile.html" target="_blank" style="font-family: Montserrat, sans serif">Profile</a>
+              <a class="nav-link" href="profile.html" style="font-family: Montserrat, sans serif;">Profile</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Montserrat, sans serif">Tugas</a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Montserrat, sans serif;">Tugas</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://talithasyafiyah.github.io/Tugas1/" target="_blank" style="font-family: Montserrat, sans serif" >Tugas 1</a>
-                <a class="dropdown-item" href="https://talithasyafiyah.github.io/Tugas2/" target="_blank" style="font-family: Montserrat, sans serif" >Tugas 2</a>
-                <a class="dropdown-item" href="https://talithasyafiyah.github.io/Tugas3/" target="_blank" style="font-family: Montserrat, sans serif" >Tugas 3</a>
+                <a class="dropdown-item" href="https://talithasyafiyah.github.io/Tugas1/" target="_blank" style="font-family: Montserrat, sans serif;">Tugas 1</a>
+                <a class="dropdown-item" href="https://talithasyafiyah.github.io/Tugas2/" target="_blank" style="font-family: Montserrat, sans serif;">Tugas 2</a>
+                <a class="dropdown-item" href="https://talithasyafiyah.github.io/Tugas3/" target="_blank" style="font-family: Montserrat, sans serif;" >Tugas 3</a>
                 <a class="dropdown-item" href="index.html" target="_blank" style="font-family: Montserrat, sans serif;" >Tugas 4</a>
               </div>
             </li>
-          </ul>
-          <button class="btn btn-info-login px-4 ml-2"m type="submit"m style="font-family: Montserrat, sans serif">Login</button>
-          <a href="https://talithasyafiyah.github.io/Tugas2/" target="_blank"><button class="btn btn-info px-4 ml-3 mr-2" type="submit" style="font-family: Montserrat, sans serif">Sign Up</button></a>
+          <button class="btn btn-info-login px-4 ml-4" type="submit" style="font-family: Montserrat, sans serif;">
+            Login
+          </button>
+          <button class="btn btn-info px-4 ml-3 mr-2" onclick="location.href='https://talithasyafiyah.github.io/Tugas2/';" type="submit" style="font-family: Montserrat, sans serif;">Sign Up</button>
+        </ul>
         </div>
       </nav>
     </div>
